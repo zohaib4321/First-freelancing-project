@@ -1,0 +1,137 @@
+    /* Define keyframe animations */
+    @keyframes showHideImage1 {
+        0%, 33.33% {
+            opacity: 1;
+        }
+        33.34%, 100% {
+            opacity: 0;
+        }
+    }
+    
+    @keyframes showHideImage2 {
+        0%, 33.33% {
+            opacity: 0;
+        }
+        33.34%, 66.66% {
+            opacity: 1;
+        }
+        66.67%, 100% {
+            opacity: 0;
+        }
+    }
+    
+    @keyframes showHideImage3 {
+        0%, 66.66% {
+            opacity: 0;
+        }
+        66.67%, 100% {
+            opacity: 1;
+        }
+    }
+    
+    /* Apply animations to images */
+    .image-container div {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0; 
+        /* Initially hide images */
+        animation-duration: 9s; 
+        /* Adjust duration to match the total duration of the cycle (3 images * 3 seconds per image) */
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+    
+    
+    .slide1 {
+        animation-name: showHideImage1;
+    }
+    
+    .slide2 {
+        animation-name: showHideImage2;
+    }
+    
+    .slide3 {
+        animation-name: showHideImage3;
+    } 
+
+    .registerBtn{
+        height: 45px;
+        width: 15em;
+        background-color: #FCB845;
+        font-size: 11pt; font-weight: 550;
+        border-radius: 8px;
+        border-color: transparent;
+        margin-right: 3px;
+    }
+
+    .registerBtn:hover{
+        background-color: orange;
+    }
+
+    .register{
+        height: 45px;
+        width: 15em;
+        background-color: #EAEAEA;
+        font-size: 11pt;  border-radius: 8px;
+        border-color: transparent;
+    }
+
+    .register:hover {
+        background-color: darkgrey;
+    }
+
+    .cardBtn1 {
+        margin-top: 7.9em;
+        width: 13em;
+        height: 3em;
+        border-radius: 7px;
+        background-color: rgb(67,87,59);
+        color: #fff; border: transparent;
+    }
+
+    .cardBtn1:hover {
+        color: black;
+        background-color: gray;
+    }
+
+    .cardBtn {
+        width: 13em;
+        height: 3em;
+        border: 1px solid rgb(67,87,59);
+        background-color: transparent;
+        border-radius: 7px; color: rgb(67,87,59);
+    }
+
+    .cardBtn:hover {
+        background-color: rgb(67,87,59);
+        color: #fff;
+    }
+
+    .cardBtn2{
+        margin-top: 8em; width: 13em; height: 3em; border: 1px solid rgb(67,87,59); background-color: transparent;border-radius: 7px; color: rgb(67,87,59);
+    }
+
+    .cardBtn2:hover {
+        background-color: rgb(67,87,59);
+        color: #fff;
+    }
+
+    .headerlist {
+        list-style-type: none;
+        display: flex;
+        padding-top: 14px;
+        gap: 2.8em; 
+        text-align: center;
+        font-size: 14pt;
+        font-weight: 540; 
+        font-family: playflair;
+        color: #43573B;
+        cursor: pointer;
+    }
+
+    .mainli:hover {
+        color: #ED963A;;
+    }
+
+    

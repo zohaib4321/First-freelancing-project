@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div style="overflow: hidden;">
+        <!-- header -->
+        <header>
+        <div style="display: flex; justify-content: space-between;">
+        <span><img style="margin-left: 3em; margin-top: -8px; width: 9.5em;" src="./images/logo.png" alt=""></span>
+        <div>
+            <ul style="display: flex; list-style-type: none; background-image: linear-gradient(27deg, #5F8B5F, #8D7420, #E29500); justify-content: center;align-items: center; width: 27em;  margin-right: -7px; font-size: 10pt; border-radius: 50px 0 0 40px; margin-top: -8px;">
+                <li >
+                    <div style=" display: flex; flex-direction: row; align-items: center; padding: 4px 0;">
+                    <span style="margin-right: 6px;"><img style="margin-left: -10px;" width="17px" src="./images/united-kingdom.png" alt=""></span>
+                    <span style="font-size: 8pt; margin-right: 8px; color: #fff; padding-top: 4px;">44 20 8144 4409</span>
+                    </div>
+                </li>
+                <li style="padding-top: 4px;">
+                    <div style="display: flex; flex-direction: row; align-items: center; padding: 10px 0;">
+                    <span style="margin-right: 3px; margin-left: 3px;"><img width="20px" src="./images/whatsapp.png" alt=""></span>
+                    <span style="font-size: 8pt; margin-right: 8px; margin-left: 3px; color: #fff;">92 (306) 333 9999</span>
+                    </div>
+                </li>
+                <li><img style="padding-right: 20px; padding-top: 4px;" height="22px" src="./images//three-image.png" alt=""></li>
+            </ul>
+        </div>
+        </div>
+        <div>
+            <div style="margin-left: 18em; margin-top: -8.5em; height: 4.5em; width: 46em; padding-top: 7px; padding-bottom: 2px; border-radius: 50px; z-index: 50; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;">
+                <ul class="headerlist">
+                    <li class="mainli">
+                        <div style="display: flex; flex-direction: row; align-items: center;">
+                        <svg width="25" height="23" viewBox="0 0 29 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M23.6364 7.20082V1.18182H20.0909V3.65536L23.6364 7.20082ZM28.3636 14.1818L14.1818 0L0 14.1818H3.54545V26H11.8182V20.0909H16.5455V26H24.8182V14.1818H28.3636ZM22.4545 23.6364H18.9091V17.7273H9.45455V23.6364H5.90909V11.5109L14.1818 3.34218L22.4545 11.6031V23.6364Z" fill="#ED963A"/>
+                        </svg>
+                        <span style="margin-left: 2px; color: #ED963A;">Home</span>
+                        </div>
+                    </li>
+                    <li class="mainli">
+                        <div style="display: flex; flex-direction: row; align-items: center;">
+                        <svg width="24" height="24" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M13.6965 18.3689C12.0665 17.4656 10.96 15.7118 10.96 13.6978C10.96 10.7615 13.3116 8.37813 16.2072 8.37813C19.1027 8.37813 21.4544 10.7615 21.4544 13.6978C21.4544 15.7118 20.3478 17.4656 18.7178 18.3689C21.8322 19.4325 24.0776 22.4183 24.0776 25.9323C24.0776 27.3327 23.714 28.7091 23.023 29.9219C22.8829 30.1685 22.6224 30.3209 22.3414 30.3209H10.073C9.79199 30.3209 9.53148 30.1685 9.39138 29.9219C8.70036 28.7091 8.33674 27.3327 8.33674 25.9323C8.33674 22.4183 10.5822 19.4325 13.6965 18.3689ZM21.8684 28.725C22.2855 27.8569 22.5035 26.9018 22.5035 25.9323C22.5035 22.4095 19.682 19.549 16.2072 19.549C12.7324 19.549 9.91083 22.4095 9.91083 25.9323C9.91083 26.9018 10.1288 27.8569 10.546 28.725H21.8684ZM29.7908 20.7849C30.2079 19.9168 30.4259 18.9625 30.4259 17.9922C30.4259 14.4694 27.6044 11.6089 24.1296 11.6089C23.6951 11.6089 23.3425 11.2514 23.3425 10.811C23.3425 10.3713 23.6951 10.0131 24.1296 10.0131C28.4733 10.0131 32 13.5885 32 17.9922C32 19.3934 31.6364 20.769 30.9454 21.9818C30.8045 22.2292 30.5448 22.3808 30.2638 22.3808H24.7057C24.2712 22.3808 23.9186 22.0233 23.9186 21.5829C23.9186 21.1432 24.2712 20.7849 24.7057 20.7849H29.7908ZM2.67554 20.7459H7.76063C8.19508 20.7459 8.54767 21.1033 8.54767 21.5438C8.54767 21.9842 8.19508 22.3417 7.76063 22.3417H2.20253C1.92155 22.3417 1.66104 22.1893 1.52095 21.9427C0.829923 20.7299 0.466309 19.3535 0.466309 17.9531C0.466309 13.5494 3.99305 9.97397 8.33674 9.97397C8.77119 9.97397 9.12379 10.3314 9.12379 10.7719C9.12379 11.2123 8.77119 11.5698 8.33674 11.5698C4.86195 11.5698 2.0404 14.4303 2.0404 17.9531C2.0404 18.9226 2.25841 19.8777 2.67554 20.7459ZM16.2072 9.97397C18.2346 9.97397 19.8803 11.6424 19.8803 13.6978C19.8803 15.7525 18.2346 17.4209 16.2072 17.4209C14.1798 17.4209 12.534 15.7525 12.534 13.6978C12.534 11.6424 14.1798 9.97397 16.2072 9.97397ZM23.6841 0C21.0782 0 18.9618 2.1456 18.9618 4.7875C18.9618 7.42941 21.0782 9.57501 23.6841 9.57501C26.29 9.57501 28.4064 7.42941 28.4064 4.7875C28.4064 2.1456 26.29 0 23.6841 0ZM9.12379 0C6.51789 0 4.40153 2.1456 4.40153 4.7875C4.40153 7.42941 6.51789 9.57501 9.12379 9.57501C11.7297 9.57501 13.8461 7.42941 13.8461 4.7875C13.8461 2.1456 11.7297 0 9.12379 0ZM23.6841 1.59583C25.4219 1.59583 26.8323 3.0257 26.8323 4.7875C26.8323 6.54931 25.4219 7.97917 23.6841 7.97917C21.9463 7.97917 20.5359 6.54931 20.5359 4.7875C20.5359 3.0257 21.9463 1.59583 23.6841 1.59583ZM9.12379 1.59583C10.8616 1.59583 12.272 3.0257 12.272 4.7875C12.272 6.54931 10.8616 7.97917 9.12379 7.97917C7.386 7.97917 5.97561 6.54931 5.97561 4.7875C5.97561 3.0257 7.386 1.59583 9.12379 1.59583Z" fill="#43573B"/>
+                        </svg>
+                        <span style="margin-left: 4px;">About</span>
+                        </div>
+                    </li>
+                    <li class="mainli">
+                        <div style="display: flex; flex-direction: row;">
+                        <svg width="30" height="24" viewBox="0 0 37 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.58272 28.053H35.3555H36.5021C36.7653 28.053 36.978 27.8403 36.978 27.5771C36.978 27.3139 36.7653 27.1012 36.5021 27.1012H35.7449L35.1392 24.1915L35.7882 21.2783H36.5021C36.7653 21.2783 36.978 21.0656 36.978 20.8024C36.978 20.5392 36.7653 20.3265 36.5021 20.3265H35.7052C35.7882 20.1354 35.835 19.9262 35.835 19.7063V15.1273C35.835 14.9074 35.7882 14.6983 35.7052 14.5072H36.5021C36.7653 14.5072 36.978 14.2945 36.978 14.0313C36.978 13.7681 36.7653 13.5554 36.5021 13.5554H35.7449L35.1392 10.6457L35.7882 7.7325H36.5021C36.7653 7.7325 36.978 7.51978 36.978 7.25658C36.978 6.99338 36.7653 6.78065 36.5021 6.78065H35.7052C35.7882 6.58956 35.835 6.38045 35.835 6.16051V1.58155C35.835 0.712627 35.1284 0.00595266 34.2594 0.00595266H2.50235C1.63343 -0.0120748 0.926758 0.6946 0.926758 1.56352V6.14248C0.926758 6.89603 1.45676 7.52699 2.16344 7.68202C1.40629 8.35264 0.926758 9.33334 0.926758 10.4222V10.844C0.926758 11.9329 1.40629 12.9136 2.16344 13.5806C1.45676 13.7356 0.926758 14.3666 0.926758 15.1201V19.6991C0.926758 20.4526 1.45676 21.0836 2.16344 21.2386C1.40629 21.9093 0.926758 22.8863 0.926758 23.9752V24.397C0.926758 26.4125 2.56725 28.053 4.58272 28.053ZM27.4883 20.3192V14.4964H29.7526V20.3192H27.4883ZM10.6471 20.3192V14.4964H26.5365V20.3192H10.6471ZM30.708 14.4964H34.2594C34.602 14.4964 34.8796 14.774 34.8796 15.1165V19.6955C34.8796 20.038 34.602 20.3156 34.2594 20.3156H30.708V14.4964ZM34.8796 1.56352V6.14248C34.8796 6.485 34.602 6.76263 34.2594 6.76263H27.4883V0.943378H34.2558C34.602 0.943378 34.8796 1.221 34.8796 1.56352ZM9.87917 6.76623V0.943378H26.5365V6.76623H9.87917ZM6.65587 6.76623V0.943378H8.92372V6.76623H6.65587ZM2.50235 6.76623C2.15983 6.76623 1.88221 6.48861 1.88221 6.14609V1.56713C1.88221 1.22461 2.15983 0.946984 2.50235 0.946984H5.70042V6.76984H4.58272H2.50235V6.76623ZM1.88221 10.844V10.4222C1.88221 8.93313 3.09365 7.72169 4.58272 7.72169H34.2594H34.8111L34.2703 10.1554H4.53585C4.27265 10.1554 4.05992 10.3681 4.05992 10.6313C4.05992 10.8945 4.27265 11.1072 4.53585 11.1072H34.2631L34.7714 13.5409H34.2594H4.58272C3.09365 13.5445 1.88221 12.3331 1.88221 10.844ZM2.50235 20.3192C2.15983 20.3192 1.88221 20.0416 1.88221 19.6991V15.1201C1.88221 14.7776 2.15983 14.5 2.50235 14.5H4.58272H9.69169V20.3229H4.58272H2.50235V20.3192ZM1.88221 23.9752C1.88221 22.4861 3.09365 21.2747 4.58272 21.2747H34.2594H34.8111L34.2703 23.7084H4.53585C4.27265 23.7084 4.05992 23.9211 4.05992 24.1843C4.05992 24.4475 4.27265 24.6602 4.53585 24.6602H34.2631L34.7714 27.0939H4.58272C3.09365 27.0939 1.88221 25.8825 1.88221 24.3934V23.9752ZM23.2555 3.853C23.2555 4.1162 23.0428 4.32893 22.7796 4.32893H13.6072C13.344 4.32893 13.1313 4.1162 13.1313 3.853C13.1313 3.5898 13.344 3.37708 13.6072 3.37708H22.7796C23.0428 3.37708 23.2555 3.5898 23.2555 3.853ZM30.1744 3.853C30.1744 3.5898 30.3872 3.37708 30.6504 3.37708H31.8726C32.1358 3.37708 32.3485 3.5898 32.3485 3.853C32.3485 4.1162 32.1358 4.32893 31.8726 4.32893H30.6504C30.3872 4.33253 30.1744 4.1162 30.1744 3.853ZM5.64633 15.8376C4.81707 15.8376 4.14285 16.5119 4.14285 17.3411C4.14285 18.1704 4.81707 18.8446 5.64633 18.8446C6.4756 18.8446 7.14982 18.1704 7.14982 17.3411C7.14982 16.5119 6.47199 15.8376 5.64633 15.8376ZM5.64633 17.8891C5.34347 17.8891 5.0983 17.644 5.0983 17.3411C5.0983 17.0383 5.34347 16.7931 5.64633 16.7931C5.94919 16.7931 6.19437 17.0383 6.19437 17.3411C6.19076 17.644 5.94559 17.8891 5.64633 17.8891ZM23.6088 17.4096C23.6088 17.6728 23.3961 17.8855 23.1329 17.8855H13.7839C13.5207 17.8855 13.308 17.6728 13.308 17.4096C13.308 17.1464 13.5207 16.9337 13.7839 16.9337H23.1329C23.3961 16.9301 23.6088 17.1464 23.6088 17.4096Z" fill="#43573B"/>
+                        </svg>
+                        <span style="margin-left: 2px; margin-top: -3px;">Services</span>
+                        </div>
+                    </li>
+                    <li class="mainli">
+                        <div style="display: flex; flex-direction: row;">
+                        <svg width="30" height="25" viewBox="0 0 37 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.3537 11.6436C17.6296 11.9037 17.1106 12.6056 17.1106 13.4294C17.1106 14.4747 17.946 15.3231 18.9753 15.3231C19.3184 15.3231 19.5969 15.6059 19.5969 15.9543C19.5969 16.3027 19.3184 16.5855 18.9753 16.5855C18.6334 16.5855 18.3556 16.3046 18.3537 15.9581V15.9505C18.3519 15.604 18.074 15.3231 17.7322 15.3231C17.3891 15.3231 17.1106 15.6059 17.1106 15.9543C17.1106 16.778 17.6296 17.48 18.3537 17.74V18.1636C18.3537 18.512 18.6322 18.7948 18.9753 18.7948C19.3184 18.7948 19.5969 18.512 19.5969 18.1636V17.74C20.321 17.48 20.84 16.778 20.84 15.9543C20.84 14.909 20.0046 14.0606 18.9753 14.0606C18.6322 14.0606 18.3537 13.7778 18.3537 13.4294C18.3537 13.081 18.6322 12.7982 18.9753 12.7982C19.3184 12.7982 19.5969 13.081 19.5969 13.4294C19.5969 13.7778 19.8754 14.0606 20.2185 14.0606C20.5616 14.0606 20.84 13.7778 20.84 13.4294C20.84 12.6056 20.321 11.9037 19.5969 11.6436V11.2201C19.5969 10.8717 19.3184 10.5889 18.9753 10.5889C18.6322 10.5889 18.3537 10.8717 18.3537 11.2201V11.6436Z" fill="#43573B"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9752 8.37964C15.5448 8.37964 12.7595 11.2082 12.7595 14.6919C12.7595 18.1757 15.5448 21.0042 18.9752 21.0042C22.4057 21.0042 25.191 18.1757 25.191 14.6919C25.191 11.2082 22.4057 8.37964 18.9752 8.37964ZM18.9752 9.64209C21.7195 9.64209 23.9478 11.905 23.9478 14.6919C23.9478 17.4788 21.7195 19.7417 18.9752 19.7417C16.231 19.7417 14.0027 17.4788 14.0027 14.6919C14.0027 11.905 16.231 9.64209 18.9752 9.64209Z" fill="#43573B"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.0883 5.85597H2.81443C1.78448 5.85597 0.949707 6.70371 0.949707 7.74965V21.6366C0.949707 22.6826 1.78448 23.5303 2.81443 23.5303H4.98185L7.7696 28.4337C8.01699 28.8686 8.42412 29.1861 8.90149 29.3162C9.37948 29.4462 9.88854 29.378 10.3168 29.1268L19.8623 23.5303H35.1362C36.1662 23.5303 37.0009 22.6826 37.0009 21.6366V7.74965C37.0009 6.70371 36.1662 5.85597 35.1362 5.85597H32.9688L30.181 0.952597C29.9336 0.517682 29.5265 0.200174 29.0491 0.0701413C28.5712 -0.0598915 28.0621 0.0082812 27.6338 0.25951L18.0883 5.85597ZM11.959 26.7067C10.8998 25.3817 9.10909 24.8944 7.539 25.5035L8.84617 27.8025C8.92884 27.9477 9.06434 28.0537 9.22346 28.0966C9.38258 28.1402 9.55227 28.1175 9.69524 28.0335L11.959 26.7067ZM17.376 23.5303H6.41706L6.91121 24.3995C9.08547 23.4565 11.6277 24.1483 13.0461 26.0691L17.376 23.5303ZM2.19285 18.5253V21.6366C2.19285 21.9851 2.47132 22.2679 2.81443 22.2679H5.87816C5.60591 20.3332 4.09859 18.8024 2.19285 18.5253ZM30.8194 7.11842H7.13125C6.8447 9.75127 4.78605 11.8425 2.19285 12.1335V17.2528C4.78543 17.5438 6.8447 19.6344 7.13125 22.2679H30.8194C31.1059 19.635 33.1646 17.5438 35.7578 17.2528V12.1335C33.1652 11.8425 31.1059 9.7519 30.8194 7.11842ZM35.7578 18.5253C33.8527 18.8018 32.3453 20.3325 32.0725 22.2679H35.1362C35.4793 22.2679 35.7578 21.9851 35.7578 21.6366V18.5253ZM5.87816 7.11842H2.81443C2.47132 7.11842 2.19285 7.40121 2.19285 7.74965V10.861C4.09797 10.5845 5.60529 9.05377 5.87816 7.11842ZM32.0725 7.11842C32.3447 9.05313 33.852 10.5839 35.7578 10.861V7.74965C35.7578 7.40121 35.4793 7.11842 35.1362 7.11842H32.0725ZM24.9045 3.31717L20.5746 5.85597H31.5336L31.0394 4.98677C28.8652 5.92982 26.3229 5.238 24.9045 3.31717ZM30.4116 3.88275L29.1045 1.58382C29.0218 1.43864 28.8863 1.3326 28.7272 1.28967C28.568 1.24612 28.3984 1.26884 28.2554 1.3528L25.9916 2.67963C27.0508 4.00458 28.8415 4.49189 30.4116 3.88275Z" fill="#43573B"/>
+                            </svg>
+                        <span style="margin-left: 2px;">Packages</span>
+                        </div>
+                    </li>
+                    <li class="mainli">
+                        <div style="display: flex; flex-direction: row; align-items: center;">
+                        <svg width="30" height="28" viewBox="0 0 34 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M29.5735 5.31348H31.4223C32.1002 5.31348 32.6548 5.86811 32.6548 6.546V11.4761C32.6548 12.154 32.1002 12.7086 31.4223 12.7086H29.5735" stroke="#43573B" stroke-width="1.23252"/>
+                            <path d="M29.5735 15.7893H31.4223C32.1002 15.7893 32.6548 16.3439 32.6548 17.0218V21.9519C32.6548 22.6298 32.1002 23.1844 31.4223 23.1844H29.5735" stroke="#43573B" stroke-width="1.23252"/>
+                            <path d="M29.5735 26.2676H31.4223C32.1002 26.2676 32.6548 26.8222 32.6548 27.5001V32.4302C32.6548 33.1081 32.1002 33.6627 31.4223 33.6627H29.5735" stroke="#43573B" stroke-width="1.23252"/>
+                            <path d="M0.609375 2.23252C0.609375 1.55463 1.16401 1 1.8419 1H28.9573C29.6352 1 30.1899 1.55463 30.1899 2.23252V37.9756C30.1899 38.6535 29.6352 39.2081 28.9573 39.2081H1.8419C1.16401 39.2081 0.609375 38.6535 0.609375 37.9756V2.23252Z" stroke="#43573B" stroke-width="1.23252"/>
+                            <path d="M4.30688 2.84863V37.3592" stroke="#43573B" stroke-width="1.23252"/>
+                            <path d="M13.4273 24.4173C14.2285 24.0475 15.3377 23.3697 15.3377 22.7534C15.3377 22.4453 15.2145 22.1988 15.0912 22.1371C13.5506 21.2744 13.3041 18.5628 13.1808 18.5628C12.6878 18.5628 12.3181 17.2687 12.3181 16.4675C12.3181 15.7897 12.503 15.7897 12.8727 15.6048V15.4815C12.8727 13.263 14.2901 11.4758 16.5703 11.4758C18.8504 11.4758 20.4527 13.3246 20.4527 15.5431V15.6664C20.8225 15.8513 20.9457 15.9745 20.9457 16.6524C20.9457 17.5152 20.6376 18.6861 20.1446 18.6861C20.0213 18.6861 19.6516 21.336 18.1725 22.1988C18.0493 22.2604 17.926 22.3836 17.926 22.6918C17.926 23.4313 19.0969 24.0475 19.8981 24.4173C20.8841 24.9103 25.2595 25.3417 25.2595 29.9636H7.94263C7.94263 25.3417 12.1948 25.0336 13.4273 24.4173Z" stroke="#43573B" stroke-width="1.23252"/>
+                        </svg>
+                        <span style="margin-left: 2px;">Contact</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </header>
+    <!-- Section 1 -->
+    <div class="section1">
+        <div class="image-container ">
+        <div style="display: flex; margin-top: 17em;" class="slide1">
+                <img style="height: 40.3em; margin-left: -8.5em; width: 36em;" src="./images/slider1.png" alt="">
+                <img style="margin-left: 8em; margin-top: 11em; height: 3em; width: 4em;" src="./images/commas.png" alt="">
+                <span>
+                <h2 style="margin-top: 9em; padding-left: 18em; margin-bottom: 1.9em; font-size: 19.3pt;" lang="ar">قال النبي</h2>
+                <span style="font-size: 24pt; font-family: Inter;  margin-left: -1.5em; color: #ED963A;" lang="ar">
+                    أَفْضَلُ الصَّدَقَةِ أَنْ يَتَعَلَّمَ الْمَرْءُ الْمُسْلِمُ عِلْمًا ثُمَّ يُعَلِّمَهُ أَخَاهُ الْمُسْلِمَ
+
+                </span>
+                <p style="margin-top: 1em;font-size: 19pt; word-spacing: 6px; margin-left: -2em; font-family: Inter;">The best of charity is when a Muslim man gains <br><span style="word-spacing: 1px;"> knowledge then he teaches it to his Muslim brother</span></p>
+                <span>
+                <button style="height: 3em; width: 14em; border-radius: 50px; margin-left: -3.3em;margin-top: 1em; padding: 4px 10px; font-size: 13pt; border: transparent; background-image: linear-gradient(45deg, #F7B84E,
+                #FFCA70); opacity: 1; font-weight: 600;">LET&apos;S START THE DEMO</button>
+                </span>
+                </span>
+                
+                
+        </div> 
+        <!-- Slide 2 -->
+        <div style="display: flex; margin-top: 17em;" class="slide2">
+            <img style="height: 40.3em; margin-left: -8.5em; width: 36em;" src="./images/slider-img-2.png" alt="">
+            <img style="margin-left: 8em; margin-top: 11em; height: 3em; width: 4em;" src="./images/commas.png" alt="">
+            <span>
+            <h2 style="margin-top: 9em; padding-left: 18em; margin-bottom: 1.9em; font-size: 19.3pt;" lang="ar">قال النبي</h2>
+            <span style="font-size: 24pt; font-family: Inter; margin-left: 7.3em; color: #ED963A;" lang="ar">
+                طَلَبُ الْعِلْمِ فَرِيضَةٌ عَلَى كُلِّ مُسْلِم
+            </span>
+            <p style="margin-top: 1em;font-size: 19pt; word-spacing: 10px; margin-left: -2em;">Seeking knowledge is an obligation upon every <br> Muslim</p>
+            <span>
+                <button class="btn" style="height: 3em;
+                width: 14em;
+                border-radius: 50px;
+                margin-left: -3.3em;
+                margin-top: 1em; 
+                padding: 4px 10px;
+                font-size: 13pt;
+                border: transparent;
+                background-image: linear-gradient(45deg, #F7B84E,
+                #FFCA70); opacity: 1;
+                font-weight: 600;">LET&apos;S START THE DEMO</button>
+            </span>
+            </span>
+        </div> 
+        <!-- Slide 3 -->
+        <div style="display: flex; margin-top: 17em;" class="slide3">
+            <img style="height: 40.3em; margin-left: -8.5em; width: 36em;" src="./images/slider-img-3.png" alt="">
+            <img style="margin-left: 8em; margin-top: 11em; height: 3em; width: 4em;" src="./images/commas.png" alt="">
+            <span>
+            <h2 style="margin-top: 9em; padding-left: 18em; margin-bottom: 1.9em; font-size: 19.3pt;" lang="ar">قال النبي</h2>
+            <span style="font-size: 24pt; font-family: Inter; margin-left: 8.5em; color: #ED963A;" lang="ar">
+                خَيْرُكُمْ مَنْ تَعَلَّمَ الْقُرْآنَ وَعَلَّمَهُ
+
+            </span>
+            <p style="margin-top: 1em;font-size: 19pt; word-spacing: 5px; margin-left: -2em;">The best among you (Muslims) are those who learn <br> the Qur'an and teach it</p>
+            <span>
+                <button style="height: 3em; width: 14em; border-radius: 50px; margin-left: -3.3em;margin-top: 1em; padding: 4px 10px; font-size: 13pt; border: transparent; background-image: linear-gradient(45deg, #F7B84E,
+                #FFCA70); opacity: 1; font-weight: 600;">LET&apos;S START THE DEMO</button>
+            </span>
+            </span>
+        </div> 
+        </div>
+    </div>
+    <!-- Section 2 -->
+    <div style="margin-top: 60em; display: flex;" class="section2">
+        <div style="background-color: transparent; width: 63%;">
+        <div style="margin: 5em 2em 0 5em;">
+            <h1>Start <span style="color: rgb(237,150,58);">Learning Quran</span></h1>
+            <h1 style="margin-top: -15px; font-size: 23pt;">Today in 3 Easy Steps</h1>
+            <p>Register yourself or register your child with us today and take your first free trial class.</p>
+            <div>
+                <ul style="list-style-type: none; margin-left: -40px;">
+                    <li style="margin-top: 2em;">
+                        <div style="display: flex;">
+                        <span>
+                            <img
+                            style="width: 5em;"
+                            src="./images/hand.png" alt=""></span>
+                        <div style="margin-left: 2.5em;">
+                        <h1 style="font-size: 15pt;margin-top: -1px; margin-left: 5px; color: #87A887; font-family: playflair">One Click Registeration</h1>
+                        <p style="text-wrap: wrap; margin-top: -5px;margin-left: 5px;  font-family: Inter; font-size: 10pt;">Simply <a style="color: rgb(237,150,58); font-family: playflair; text-decoration: none;" href="#">Click here</a> which will take you to the registeration page. You can register for free online Quran  classes with our online Quran teachers just by filling in your name and contact information</p>
+                        </div>
+                        </div>
+                    </li>
+                    <li style="margin-top: 2em;">
+                        <div style="display: flex;">
+                        <span><img style="width: 5em;" src="./images/registeration.png" alt=""></span>
+                        <div style="margin-left: 2.5em;">
+                        <h1 style="font-size: 15pt; margin-left: 5px; color: rgb(237,150,58); font-family: playflair">One Click Registeration</h1>
+                        <p style="text-wrap: wrap; margin-top: -5px;margin-left: 5px; font-family: Inter; font-size: 10pt;">Upon recieving your registeration, we will contact you back to set your convenience time 
+                        for Free <strong style="font-family: playflair;">Quran Trial Classes</strong> and give you overview about our Quran teaching process</p>
+                        </div>
+                        </div>
+                    </li>
+                    <li style="margin-top: 2em;">
+                        <div style="display: flex;">
+                        <span><img style="width: 5em;" src="./images/quran.png" alt=""></span>
+                        <div style="margin-left: 2.5em;">
+                        <h1 style="font-size: 15pt; margin-left: 5px;color: #87A887; font-family: playflair">Start Taking your First Class</h1>
+                        <p style="text-wrap: wrap; font-size: 10pt; margin-top: -5px;margin-left: 5px; font-family: Inter;">Initiate you Quran learning process by by <span style="color: rgb(237,150,58); font-family: playflair;">logging in with your credentials</span> we provide you and start taking your first class with our Quran teachers</p>
+                        </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div style="width: 43%;">
+        <img 
+        style="width: 30em;
+        height: 40em;
+        position: relative;
+        float: right;
+        margin-right: -0.5em;
+        "
+        src="./images/back-image.png" alt="">
+        <img 
+        style="height: 33em;
+        width: 27em;
+        margin-bottom: 5em;
+        position: relative;
+        margin-top: -35em;
+        margin-left: 3em;
+        "
+        src="./images/front-image.png" alt="">
+        </div>
+    </div>
+    <!-- Section 3 -->
+    <div style="display: flex; margin-top:  5em;" class="section3">
+        <div class="image-area">
+            <img style="width: 45em;" src="./images/left-image.png" alt="">
+        </div>
+        <div style="margin-top: 6em; margin-left: 8em;" class="list-area">
+        <h1 style="font-size: 25pt; color: #43573B; font-family: playflair">Why choose</h1>
+        <h1 style="margin-top: -22px;"><span style="color: #ED963A;"><span style="color: #43573B;font-family: playflair">Learn</span> Qura&apos;an</span></h1>
+        <h1 style="margin-top: -22px; color: #43573B; font-family: playflair">Academy</h1>
+        <p style="font-size: 10pt; font-family: Inter; font-size: 10pt;">We take responsibity for good results.We take you step by step with <br> your children at the highest level to learn to read the Quran online <br> with tajweed.The comfort of home and your selected timings, supervision <br> of parents and guidance of expert Quran teachers makes online Quran <br> learning a lot easier.Therfore you can rely on us.</p>
+        <ul style="margin-left: -23px; list-style-image: url(./images/tick-icon.png); margin-left: -3px; font-family: Inter; font-size: 9px;">
+            <li>Free Trial class</li>
+            <li>One-on-one Quran Classes</li>
+            <li>Choose your desired timings & days</li>
+            <li>Tajweed Quran word by word</li>
+            <li>Female Quran Teachers for kids and women</li>
+            <li>Fluent English speaking Female Quran teachers</li>
+        </ul>
+        <div style="margin-top: 3em;"> 
+            <button class="registerBtn">Our Services</button>
+            <button class="register">Register Now</button>
+        </div>
+        </div>
+    </div>
+    <!-- Section 4 -->
+    <div style="margin-top: 10em;" class="section4">
+        <div style="display: flex;">
+        <div style="margin-left: 8em; margin-top: 10em; margin-right: 5em;">
+            <h1 style="color: #43573B; font-family: playflair;">How we teach?</h1>
+            <h1 style="color: #ED963A; font-family: playflair;">Watch video</h1>
+            <p style="font-family: Inter; font-size: 10pt"
+            >Don&apos;t know how it works? Watch our demo class video now</p>
+        </div>
+        <div><img style="width: 45rem;" src="./images/video.png" alt=""></div>
+        </div>
+    </div>
+    <!-- Section 5 -->
+    <div style="overflow-x: hidden; margin-top: 10em;">
+
+        <!-- Slider -->
+        <div style="text-align: center;">
+            <h3 style="margin-bottom: 1em; font-family: playflair; font-size: 14pt; letter-spacing: 3px; color: #43573B;">TESTIMONIALS</h3>
+            <h1 style="margin-bottom: 1em; font-family: playflair; font-size: 25pt; color: #43573B;">Look What <span style="color:#ED963A;">People</span> Say!</h1>
+        </div>
+        <div style="align-items: center; text-align: center; justify-content: center;" id="carouselExampleSlidesOnly" data-bs-ride="carousel">
+        <div style="margin-left: 20em; overflow: auto;" class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./assets/Card Pic 1.png" class="d-block w-50" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="./assets/Card Pic 2.png" class="d-block w-50" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img  src="./assets/Card Pic 3.png" class="d-block w-50" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img
+            src="./assets/Card Pic 4.png" 
+            class="d-block w-50" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img
+            src="./assets/Card Pic 5.png" 
+            class="d-block w-50" alt="...">
+        </div>
+        </div>
+        </div>
+    </div>
+    <!-- Section 6 -->
+    <div style="margin-top: 10em;" class="section6">
+        <h2 style="text-align: center; color: #ED963A; font-size: 18pt; margin-bottom: 1em; font-family: playflair;">Our Pricing</h2>
+        <h1 style="text-align: center; font-size: 23pt; margin-bottom: 2em; color: rgb(67,87,59); font-family: playflair;">Choose Our Pricing Plans</h1>
+        <div style="display: flex">
+            <div class="card" style="width: 17rem; margin-left: 6.7em; margin-right: 1.5em; box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;">
+                <div style="height: 4rem; text-align: center; color: white;  background: linear-gradient(270deg, #957A3B, #47583B)" class="card-header">
+                <p style="font-size: 10pt;">2 lessons a week</p>
+                <p style="margin-top: -1em; font-size: 10pt;">30 minuts per lesson</p>
+                </div>
+                
+                    <h1 style="color: #ED963A; margin-top: 1rem; text-align: center;">20£</h1>
+                    <h6 style="margin-bottom: 2em; text-align: center;">Monthly</h6>
+                <ul style="font-size: 10pt; list-style-image: url(./images/tick.png); margin-left: 3em;">
+                    <li>Noorani Qaida</li>
+                    <li>Tajweed ul-Quran</li>
+                    <li>Quran reading & recitation</li>
+                    <li>Noorani Qaida</li>
+                    <li>Salah (prayer)</li>
+                </ul>
+                <div style="margin-top: 12.9em; text-align: center;">
+                    <button class="cardBtn">Get Free Trial</button>
+                
+                <p style="padding-top: 2em; font-size: 8pt;">Discounts, Special Pricing And <br> Volume Discounts Are Available. <br>Please Contact Us To Learn More</p>
+                </div>
+            </div>
+            <div class="card" style="width: 17rem;margin-right: 1.5em; box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;">
+                <div style="height: 4rem; text-align: center; color: white; background: linear-gradient(270deg, #957A3B, #47583B)" class="card-header">
+                <p style="font-size: 10pt;">3 lessons a week</p>
+                <p style="margin-top: -1em; font-size: 10pt;">30 minuts per lesson</p>
+                </div>
+                
+                    <h1 style="color: #ED963A; margin-top: 1rem; text-align: center;">20£</h1>
+                    <h6 style="margin-bottom: 2em; text-align: center;">Monthly</h6>
+                <ul style="font-size: 10pt; list-style-image: url(./images/tick.png); margin-left: 3em;">
+                    <li>Noorani Qaida</li>
+                    <li>Tajweed ul-Quran</li>
+                    <li>Quran reading & recitation</li>
+                    <li>Noorani Qaida</li>
+                    <li>Salah (prayer)</li>
+                    <li>Seerah & Islamic Studies</li>
+                    <li>Quran Memorization</li>
+                    <li>Full Learning Program <br>
+                        <span>for kids or adults</span>
+                    </li>
+                </ul>
+                <div style="text-align: center;">
+                    <button class="cardBtn1">Get Free Trial</button>
+                    <p style="padding-top: 2em; font-size: 8pt;">Discounts, Special Pricing And <br> Volume Discounts Are Available. <br>Please Contact Us To Learn More</p>
+                </div>
+                    
+            
+            </div>
+            <!-- 34d -->
+            <div class="card" style="width: 17rem;margin-right: 1.5em; box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;">
+                <div style="height: 4rem; text-align: center; color: white;  background: linear-gradient(270deg, #957A3B, #47583B)" class="card-header">
+                <p style="font-size: 10pt;">4 lessons a week</p>
+                <p style="margin-top: -1em; font-size: 10pt;">30 minuts per lesson</p>
+                </div>
+                    <h1 style="color: #ED963A; margin-top: 1rem; text-align: center;">20£</h1>
+                    <h6 style="margin-bottom: 2em; text-align: center;">Monthly</h6>
+                <ul style="font-size: 10pt; list-style-image: url(./images/tick.png); margin-left: 3em;">
+                    <li>Noorani Qaida</li>
+                    <li>Tajweed ul-Quran</li>
+                    <li>Quran reading & recitation</li>
+                    <li>Noorani Qaida</li>
+                    <li>Salah (prayer)</li>
+                    <li>Seerah & Islamic Studies</li>
+                    <li>Quran Memorization</li>
+                    <li>Full Learning Program <br>
+                        <span>for kids or adults</span>
+                    </li>
+                </ul>
+                <div style="text-align: center;">
+                <button class="cardBtn2">
+                    Get Free Trial
+                </button>
+                <div>
+                    <p style="padding-top: 2em; font-size: 8pt;">Discounts, Special Pricing And <br> Volume Discounts Are Available. <br>Please Contact Us To Learn More</p>
+                    
+                </div>
+                </div>
+            
+            </div>
+            <!-- 4th -->
+            <div class="card" style="width: 17rem;margin-right: 1.5em;box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;">
+                <div style="height: 4rem; text-align: center; color: white;  background: linear-gradient(270deg, #957A3B, #47583B)" class="card-header">
+                <p style="font-size: 10pt;">5 lessons a week</p>
+                <p style="margin-top: -1em; font-size: 10pt;">30 minuts per lesson</p>
+                </div>
+                
+                    <h1 style="color: #ED963A; margin-top: 1rem; text-align: center;">20£</h1>
+                    <h6 style="margin-bottom: 2em; text-align: center;">Monthly</h6>
+                <ul style="font-size: 10pt; list-style-image: url(./images/tick.png); margin-left: 3em;">
+                    <li>Noorani Qaida</li>
+                    <li>Tajweed ul-Quran</li>
+                    <li>Quran reading & recitation</li>
+                    <li>Noorani Qaida</li>
+                    <li>Salah (prayer)</li>
+                    <li>Seerah & Islamic Studies</li>
+                    <li>Quran Memorization</li>
+                    <li>Full Learning Program <br>
+                        <span>for kids or adults</span>
+                    </li>
+                </ul>
+                <div style="text-align: center;">
+                <button class="cardBtn2">
+                    Get Free Trial
+                </button>
+                <div>
+                    <p style="padding-top: 2em; font-size: 8pt;">Discounts, Special Pricing And <br> Volume Discounts Are Available. <br>Please Contact Us To Learn More</p>
+                    
+                </div>
+                </div>
+            </div>
+    </div>
+    </div>
+    <!-- Section 7 -->
+    <div style="margin-top: 5em;">
+        <div style="margin-top: 13em; margin-bottom: -1.5em; margin-left: 60em; ">
+        <div style="text-align: center; border: 1px solid black; width: 19em; height: 310px; box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; border: transparent; border-radius: 20px; padding-bottom: 2em; position: relative; color: #fff; background-color: #fff;">
+            <form style="font-size: 8pt;">
+                <h6 style="font-size: 15pt; margin-top: 2em; padding-top: 1rem; color: #F7b84E; font-family: playflair">Fill your details</h6>
+                <input
+                style="margin-bottom: 4px; width: 22em; height: 4em; border: transparent; box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; border-radius: 5px;"
+                type="text"  
+                placeholder="       Name"
+                >
+                <br>
+                <input type="text"
+                style="margin-top: 1em; margin-bottom: 10px; width: 22em; height: 4em; border: transparent; box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; border-radius: 5px; "
+                placeholder="       Email"
+                >
+                <br>
+                <input type="text" 
+                style="margin-bottom: 10px; width: 22em; height: 4em; border-radius: 6px; border: transparent;box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; border-radius: 5px;"
+                placeholder="       Phone with Country Code"
+                >
+                <br>
+                <p style="font-size: 7pt;">For communication purpose only.we will never share your phone.</p>
+                
+                <button style="width: 22em; height: 3em; border-radius: 50px;
+                background-color: #43573B; border: transparent; color: white;">Send Requests</button>
+            </form>
+        </div>
+        </div>
+    </div>
+    <div>
+    <footer style=" display: block; background-image: linear-gradient(190deg, #F7B84E, #F1CA8E ); font-family: Inter; height: 30em;">
+        <div style="display: flex; padding-bottom: 1em;">
+            <div style="width: 50%;">
+            <div style="align-items: center; text-align: center; justify-content: center;">
+                <img style="height: 9em; width: 6em; mix-blend-mode: multiply; margin-top: 45px;" src="./images/footer-logo.png" alt="">
+            </div>
+            <p style="margin: 2em 5em 5em 5em; font-size: 9pt;">We, at Learn Quran Academy stand as a non-partisan entity independent of any specific group islamic orgaization or mosques. All students with  an interert in learning the Quran are warmly welcomed.</p>
+            </div>
+            <div style="width: 50%; display: flex;  padding-top: 3em;">
+            <div style="margin-left: 5em;">
+                <h3 style="font-size: 12pt;">FEEL FREE TO CONTACT US</h3>
+                <ul style="list-style-type: none; font-size: 10pt;margin-top: 15px;">
+                    <li style="margin-bottom: 15px;"><span><img style="width: 1em; margin-left: -2em; margin-right: 1.5em;" src="./images/call-footer.png" alt=""></span><span>uk: 44 20 8144 4409A</span></li>
+                    <li style="margin-bottom: 15px;"><span><img style="width: 1.2em; margin-left: -2em; margin-right: 1.5em;" src="./images/whatsapp-footer.png" alt=""></span><span>1234567890</span></li>
+                    <li style="margin-bottom: 15px;"><span><img style="width: 1.5em; margin-left: -2em; margin-right: 1.5em;" src="./images/email.png" alt=""></span><span>info@learnquraan.co.uk</span></li>
+                </ul>
+            </div>
+            <div style="margin-left: 4em;">
+                <h4 style="font-size: 12pt;">Quick Links</h4>
+                <ul style="list-style-type: none; margin-left: -2em; font-size: 10pt;;">
+                    <li style="margin-bottom: 5px; margin-top: 14px;">About Us</li>
+                    <li style="margin-bottom: 5px;">Courses</li>
+                    <li style="margin-bottom: 5px;">Packages</li>
+                    <li style="margin-bottom: 5px;">Teaching Quality Assurance</li>
+                    <li style="margin-bottom: 5px;">Privacy Policy</li>
+                    <li style="margin-bottom: 5px;">FAQ&apos;s</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div style="display: flex;">
+            <div style="width: 50%; margin-top: -3em;">
+            <div style="margin: 6em;">
+                <h4 style="font-size: 13pt; margin-top: -2em;">Socialize With Us</h4>
+                <img style="margin: 1em 0 1em 1em;" src="./images/three-image.png" alt="">
+                <p style="font-size: 10pt; color: gray;">©️ Copyright 2019 Learn Quran Academy. All Rights Reserved</p>
+            </div>
+            </div>
+            <div style="width: 50%; margin-top: -5em;">
+            <h3 style="margin-left:5em; font-size: 12pt;">Students Gallery</h3>
+                <div style="margin-left: 3em;" class="footer-images">
+                    <ul style="display: flex; list-style-type: none;">
+                    <li><img style="height: 5rem; width: 5rem; margin-right: 8px;" src="./images/img 1.png" alt=""></li>
+                    <li><img style="height: 5rem; width: 5rem; margin-right: 8px;" src="images/img 2.png" alt=""></li>
+                    <li><img style="height: 5rem; width: 5rem; margin-right: 8px;" src="./images/img3.png" alt=""></li>
+                    <li><img style="height: 5rem; width: 5rem; margin-right: 8px;" src="./images/img 4.png" alt=""></li>
+                    <li><img style="height: 5rem; width: 5rem; margin-right: 8px;" src="./images/img 5.png" alt=""></li>
+                    </ul>
+                </div>
+                <div style="margin-left: 3em;" class="footer-images">
+                    <ul style="display: flex; list-style-type: none;">
+                    <li><img style="height: 5rem; width: 5rem; margin-right: 8px;" src="./images/img  6.png" alt="6"></li>
+                    <li><img style="height: 5rem; width: 5rem; margin-right: 8px;" src="./images/img 7.png" alt="7"></li>
+                    <li><img style="height: 5rem; width: 5rem; margin-right: 8px;" src="./images/img 8.png" alt="8"></li>
+                    <li><img style="height: 5rem; width: 5rem; margin-right: 8px;" src="./images/img 9.png" alt="9"></li>
+                    <li><img style="height: 5rem; width: 5rem; margin-right: 8px;" src="./images/img 10.png" alt="10"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+</div>
+<!-- script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
